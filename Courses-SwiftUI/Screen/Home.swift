@@ -30,7 +30,7 @@ struct Home: View {
                     Image(systemName: "heart.fill")
                     Text("Favourites")
                 }
-        }.accentColor(.green)
+        }.accentColor(Color(UIColor.label)) // Adaptive color for light and dark mode
     }
 }
 

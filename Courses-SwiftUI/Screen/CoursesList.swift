@@ -24,8 +24,8 @@ struct CoursesList: View {
     
     var body: some View {
         CoursesListView(courses: coursesViewModel.coursesInCurrentCategory, category: currentCategory)
-            .accentColor(.black)
-        .navigationViewStyle(.stack)    }
+        .navigationViewStyle(.stack)   
+    }
 }
 
 //struct CoursesList_Previews: PreviewProvider {

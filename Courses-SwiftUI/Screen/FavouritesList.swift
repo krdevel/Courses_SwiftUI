@@ -18,11 +18,9 @@ struct FavouritesList: View {
     
     var body: some View {
         NavigationView {
-            
             FavouritesListView(coursesVM: coursesViewModel)
-            
-        }.accentColor(.black)
-            .navigationViewStyle(.stack)
+        }
+        .navigationViewStyle(.stack)
     }
 }
 

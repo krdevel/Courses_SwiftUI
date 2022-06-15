@@ -22,7 +22,6 @@ struct CategoriesList: View {
             NavigationView {
                 CategoriesListView(categories: categoriesViewModel.categories)
             }
-            .accentColor(.black)
             .navigationViewStyle(.stack)
             
             // Un-comment below for a test of the @ObservedObject property of this class
